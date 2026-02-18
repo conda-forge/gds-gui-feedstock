@@ -1,0 +1,24 @@
+From 86b48c101f5701842f36bbca44f32e9b60b5d90b Mon Sep 17 00:00:00 2001
+From: Duncan Macleod <macleoddm@cardiff.ac.uk>
+Date: Wed, 18 Feb 2026 10:06:46 +0000
+Subject: [PATCH] Add missing TMath.h include
+
+---
+ GUI/dttview/TLGOptions.cc | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/GUI/dttview/TLGOptions.cc b/GUI/dttview/TLGOptions.cc
+index 4042c2082..efb798da6 100644
+--- a/GUI/dttview/TLGOptions.cc
++++ b/GUI/dttview/TLGOptions.cc
+@@ -10,6 +10,7 @@
+ // #include <TAttTextCanvas.h>
+ #include <TGListBox.h>
+ #include <TGMsgBox.h>
++#include <TMath.h>
+ #include <TVirtualX.h>
+ 
+ static const int my_debug = 0 ;
+-- 
+2.39.5
+
